@@ -1,0 +1,88 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: lightblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#foto {
+    width: 250px;
+    border-radius: 35%;
+    border: 6px solid brown;
+}
+
+h1, h2, h3, h4, p {
+        text-shadow: 0 0 4px black;
+}
+
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bday-msg {
+    background-color: brown;
+    border-radius: 10%;
+    padding: 5px 10px;
+    margin: 20px;
+}
+#bday-age {
+    background-color: brown;
+    border-radius: 10%;
+    padding: 5px 10px;
+    margin: 3px;
+}
+.gift-section {
+    margin-top: 35px;
+}
+.gift-img-black {
+    background-image: url("/images/gift-black.jpg");
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border: 6px solid brown;
+    border-radius: 10px;
+    background-size: cover;
+    margin: 0 auto; 
+}
+.gift-img-black:hover {
+    background-image: url("/images/present1.webp");
+}
+#gift-love:hover {
+    background-image: url("/images/gift-love.gif");
+}
+#gift-travel:hover {
+    background-image: url("/images/gift-travel.gif");
+}
+#gift-peace:hover {
+    background-image: url("/images/gift-peace.gif");
+}
+#gift-money:hover {
+    background-image: url("/images/gift-money.gif");
+}
+#gift-meditation:hover {
+    background-image: url("/images/gift-meditation.gif");
+}
+#gift-gf:hover {
+    background-image: url("/images/gift-glutenfree.gif");
+}
+#gift-friends:hover {
+    background-image: url("/images/gift-friends.gif");
+}
+#gift-cake:hover {
+    background-image: url("/images/happybdaycake.gif");
+}
+#footer {
+    width: 400px;
+    margin: 40px auto 20px;
+    text-align: center;
+}
+a {
+    color: white;
+    font-style: italic;
+}
